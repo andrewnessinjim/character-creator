@@ -4,6 +4,8 @@
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  white-space: nowrap;
+  overflow-x: auto;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
@@ -14,6 +16,9 @@
 
 .title {
   margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
   /* Optical centering */
   margin-bottom: -4px;
 }
