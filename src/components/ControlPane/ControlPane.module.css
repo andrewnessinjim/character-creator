@@ -3,6 +3,7 @@
   /* Optical centering */
   padding-top: 18px;
   background-color: white;
+  position: relative;
   border-radius: 8px;
   white-space: nowrap;
   overflow-x: auto;
