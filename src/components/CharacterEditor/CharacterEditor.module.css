@@ -11,6 +11,12 @@
   width: 65%;
 }
 
+@media screen and (max-width: 580px) {
+  .header {
+    width: auto;
+  }
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: 600;
@@ -31,8 +37,22 @@
   top: 128px;
 }
 
+@media screen and (max-width: 580px) {
+  .characterWrapper {
+    position: static;
+  }
+}
 .controlColumn {
   width: 50%;
+  white-space: nowrap;
+}
+@media screen and (max-width: 580px) {
+  .controlColumn {
+    width: 90%;
+    overflow-x: auto;
+    margin: 0 auto;
+    margin-top: -220px;
+  }
 }
 
 .perspectiveBackground {
@@ -42,4 +62,9 @@
   background-color: hsl(195deg, 20%, 86%);
   bottom: 0;
   left: 0;
+}
+@media screen and (max-width: 580px) {
+  .perspectiveBackground {
+    display: none;
+  }
 }
